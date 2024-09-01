@@ -1,6 +1,6 @@
 import sqlite3 from 'sqlite3';
 import { open } from 'sqlite';
-import { assignGroup } from '../../lib/assignGroup';  // 引入轉換過來的 assignGroup 函數
+import { assignGroup } from '/verificationbot/lib/assignGroup';  // 引入轉換過來的 assignGroup 函數
 
 export default async function handler(req, res) {
   const { school_number, username } = req.body;
